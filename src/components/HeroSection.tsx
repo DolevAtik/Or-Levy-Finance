@@ -12,7 +12,7 @@ const HeroSection = () => {
           {/* Profile Image */}
           <div className="relative">
             <div className="w-72 h-72 md:w-80 md:h-80 lg:w-96 lg:h-96 rounded-2xl overflow-hidden shadow-gold animate-glow">
-              <img src={orProfile} alt="אור - יועץ פיננסי" className="w-full h-full object-cover object-top" />
+              <img src={orProfile} alt="אור - יועץ פיננסי" className="w-full h-full object-cover" style={{ objectPosition: 'center 15%' }} />
             </div>
             {/* Decorative corner */}
             <div className="absolute -bottom-4 -left-4 w-24 h-24 border-b-4 border-l-4 border-primary rounded-bl-2xl" />
