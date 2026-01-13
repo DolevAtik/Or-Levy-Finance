@@ -1,4 +1,4 @@
-import { Shield, TrendingUp, PieChart, Users } from "lucide-react";
+import { Shield, TrendingUp, PieChart, Users, Search, Receipt, Home, FileCheck } from "lucide-react";
 
 const ServicesSection = () => {
   const services = [
@@ -21,6 +21,26 @@ const ServicesSection = () => {
       icon: Users,
       title: "ליווי פיננסי מלא",
       description: "ליווי אישי ומקיף בכל ההחלטות הפיננסיות שלך - מביטוח ועד השקעות"
+    },
+    {
+      icon: Search,
+      title: "איתור כספים והוזלת דמי ניהול",
+      description: "איתור כספים אבודים והוזלת דמי ניהול בקופות פנסיוניות וחסכונות אישיים"
+    },
+    {
+      icon: Receipt,
+      title: "החזרי מס",
+      description: "טיפול מקצועי בהחזרי מס ומיצוי מלוא הזכויות המגיעות לך"
+    },
+    {
+      icon: Home,
+      title: "ייעוץ ומחזור משכנתא",
+      description: "ייעוץ מקצועי למחזור משכנתא וחיסכון משמעותי בהחזרים החודשיים"
+    },
+    {
+      icon: FileCheck,
+      title: "טיפול בתביעות",
+      description: "טיפול מקצועי בתביעות ביטוח ותביעות ביטוח לאומי"
     }
   ];
 
