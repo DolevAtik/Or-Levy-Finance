@@ -1,6 +1,6 @@
 const AboutSection = () => {
   const highlights = [{
-    title: "מנכ״ל INVESTPOINT",
+    title: "מנכ״ל InvestPoint",
     description: "ניהול חברת השקעות מובילה"
   }, {
     title: "עתיד בריא",
