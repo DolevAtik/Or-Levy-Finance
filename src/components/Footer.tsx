@@ -4,7 +4,7 @@ const Footer = () => {
       <div className="container mx-auto px-6">
         <div className="flex flex-col md:flex-row items-center justify-between gap-4">
           <div className="text-center md:text-right">
-            <p className="text-primary font-bold text-lg">InvastPoint</p>
+            <p className="text-primary font-bold text-lg">InvestPoint</p>
             <p className="text-muted-foreground text-sm">ניהול השקעות וייעוץ פיננסי</p>
           </div>
           

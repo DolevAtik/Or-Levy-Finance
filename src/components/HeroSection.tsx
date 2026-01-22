@@ -21,7 +21,7 @@ const HeroSection = () => {
 
           {/* Content */}
           <div className="text-center lg:text-right flex-1 max-w-2xl">
-            <p className="text-primary font-medium mb-4 tracking-wide">מנכ״ל InvastPoint</p>
+            <p className="text-primary font-medium mb-4 tracking-wide">מנכ״ל InvestPoint</p>
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold text-foreground mb-6 leading-tight">
               <span className="block">אור לוי</span>
               <span className="text-gradient-gold block mt-2 whitespace-nowrap">מתכנן פיננסי ומומחה ביטוח</span>
