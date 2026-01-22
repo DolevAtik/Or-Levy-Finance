@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, MessageCircle } from "lucide-react";
+import { Phone, Mail, MapPin, MessageCircle, Instagram } from "lucide-react";
 
 const ContactSection = () => {
   const contactInfo = [
@@ -13,6 +13,12 @@ const ContactSection = () => {
       label: "וואטסאפ",
       value: "שלח הודעה",
       href: "https://wa.me/972546142426?text=%D7%94%D7%99%D7%99%20%D7%91%D7%90%D7%AA%D7%99%20%D7%9E%D7%94%D7%90%D7%AA%D7%A8%20%D7%A9%D7%9C%D7%9A%20%D7%95%D7%90%D7%A9%D7%9E%D7%97%20%D7%9C%D7%A9%D7%9E%D7%95%D7%A2%20%D7%A4%D7%A8%D7%98%D7%99%D7%9D"
+    },
+    {
+      icon: Instagram,
+      label: "אינסטגרם",
+      value: "@orlevy.finance",
+      href: "https://www.instagram.com/orlevy.finance?igsh=dmFtNjAwaGxqdGR0"
     },
     {
       icon: Mail,
