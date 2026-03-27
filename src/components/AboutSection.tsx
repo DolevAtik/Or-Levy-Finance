@@ -20,12 +20,12 @@ const AboutSection = () => {
 
         <div className="max-w-4xl mx-auto">
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed text-center mb-12">
-            אני מנכ״ל חברת <span className="text-primary font-semibold">InvestPoint</span> ומנהל הפיננסים בסוכנות הביטוח 
+            אני אור לוי מנכ״ל חברת <span className="text-primary font-semibold">InvestPoint</span> ומנהל הפיננסים בסוכנות הביטוח 
             <span className="text-primary font-semibold"> עתיד בריא</span>. 
-            בשנים האחרונות אני ליוויתי ומלווה אישית מאות יחידים ומשפחות מהרגע הראשון עד התוצאות בפועל, וגם הרבה לאחר מכן.
+בשנים האחרונות אני ליוויתי ומלווה אישית מאות יחידים ומשפחות מהרגע הראשון עד התוצאות בפועל, וגם הרבה לאחר מכן.
 
 הגישה שלי פשוטה - להיות שותף לדרך, מישהו שנמצא שם יחד איתך.
-כי בסוף, כסף זה לא רק מספרים - זה שקט נפשי, וזה בדיוק מה שאני כאן כדי לבנות יחד איתך.
+כי בסוף, כסף זה לא רק מספרים - זה שקט נפשי, וזה בדיוק המקום שבו אתה ראוי להיות.
           </p>
 
           <div className="grid md:grid-cols-3 gap-6">
