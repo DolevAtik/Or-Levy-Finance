@@ -20,10 +20,7 @@ const AboutSection = () => {
 
 <div className="max-w-4xl mx-auto text-center mb-12">
   <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed mb-6">
-    אני אור לוי מנכ״ל חברת{" "}
-    <span className="text-primary font-semibold">InvestPoint</span>{" "}
-    ומנהל הפיננסים בסוכנות הביטוח{" "}
-    <span className="text-primary font-semibold">עתיד בריא</span>.
+    אני אור לוי מנכ״ל חברת <span className="text-primary font-semibold">InvestPoint</span> ומנהל הפיננסים בסוכנות הביטוח <span className="text-primary font-semibold">עתיד בריא</span>.
   </p>
 
   <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed mb-6">
@@ -35,8 +32,7 @@ const AboutSection = () => {
   </p>
 
   <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
-    כי בסוף, כסף זה לא רק מספרים - זה שקט נפשי,
-    <span className="font-bold"> וזה בדיוק המקום שבו אתה ראוי להיות</span>.
+    כי בסוף, כסף זה לא רק מספרים - זה שקט נפשי, <span className="font-bold">וזה בדיוק המקום שבו אתה ראוי להיות</span>.
   </p>
 </div>
           <div className="grid md:grid-cols-3 gap-6">
