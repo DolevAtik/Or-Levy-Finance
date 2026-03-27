@@ -39,10 +39,6 @@ const AboutSection = () => {
     <span className="font-bold"> וזה בדיוק המקום שבו אתה ראוי להיות</span>.
   </p>
 </div>
-    כי בסוף, כסף זה לא רק מספרים - זה שקט נפשי,
-    <span className="font-bold"> וזה בדיוק המקום שבו אתה ראוי להיות</span>.
-  </p>
-</div>
           <div className="grid md:grid-cols-3 gap-6">
             {highlights.map((item, index) => <div key={index} className="bg-secondary/50 border border-border rounded-2xl p-6 text-center hover:border-primary transition-colors duration-300" style={{
             animationDelay: `${index * 150}ms`
