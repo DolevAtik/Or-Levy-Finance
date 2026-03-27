@@ -18,23 +18,27 @@ const AboutSection = () => {
           <div className="w-24 h-1 bg-gradient-gold mx-auto rounded-full" />
         </div>
 
-<div className="max-w-4xl mx-auto">
-  <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed text-center mb-12">
+<div className="max-w-4xl mx-auto text-center mb-12">
+  <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed mb-6">
     אני אור לוי מנכ״ל חברת{" "}
     <span className="text-primary font-semibold">InvestPoint</span>{" "}
     ומנהל הפיננסים בסוכנות הביטוח{" "}
     <span className="text-primary font-semibold">עתיד בריא</span>.
-    
-    <br /><br />
+  </p>
 
+  <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed mb-6">
     בשנים האחרונות אני ליוויתי ומלווה אישית מאות יחידים ומשפחות מהרגע הראשון עד התוצאות בפועל, וגם הרבה לאחר מכן.
-    
-    <br /><br />
+  </p>
 
+  <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed mb-6">
     הגישה שלי פשוטה - להיות שותף לדרך, מישהו שנמצא שם יחד איתך.
-    
-    <br />
+  </p>
 
+  <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed">
+    כי בסוף, כסף זה לא רק מספרים - זה שקט נפשי,
+    <span className="font-bold"> וזה בדיוק המקום שבו אתה ראוי להיות</span>.
+  </p>
+</div>
     כי בסוף, כסף זה לא רק מספרים - זה שקט נפשי,
     <span className="font-bold"> וזה בדיוק המקום שבו אתה ראוי להיות</span>.
   </p>
