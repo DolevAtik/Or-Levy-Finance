@@ -21,7 +21,7 @@ const AboutSection = () => {
 
         <div className="max-w-4xl mx-auto text-center mb-12">
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed mb-6">
-            אני אור לוי מנכ״ל חברת <span className="text-primary font-semibold">InvestPoint</span> ומנהל הפיננסים בסוכנות הביטוח <span className="text-primary font-semibold">עתיד בריא</span>.
+            אני אור לוי , מנכ״ל חברת <span className="text-primary font-semibold">InvestPoint</span> ומנהל הפיננסים בסוכנות הביטוח <span className="text-primary font-semibold">עתיד בריא</span>.
           </p>
           <p className="text-xl md:text-2xl text-muted-foreground leading-relaxed mb-6">
             בשנים האחרונות אני ליוויתי ומלווה אישית מאות יחידים ומשפחות מהרגע הראשון עד התוצאות בפועל, וגם הרבה לאחר מכן.
