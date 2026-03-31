@@ -1,4 +1,4 @@
-import { Phone, Mail, MapPin, MessageCircle, Instagram } from "lucide-react";
+import { Phone, Mail, MessageCircle, Instagram, MapPin } from "lucide-react";
 
 const ContactSection = () => {
   const contactInfo = [
@@ -25,14 +25,10 @@ const ContactSection = () => {
       label: "אימייל",
       value: "or@atidbary.co.il",
       href: "mailto:or@atidbary.co.il"
-    },
-    {
-      icon: MapPin,
-      label: "משרד",
-      value: "אלי הורוביץ 12, קומה 4 - עתיד בריא",
-      href: "https://maps.google.com/?q=אלי+הורוביץ+12"
     }
   ];
+
+  const mobileContactInfo = contactInfo;
 
   return (
     <section id="contact" className="py-24 bg-card relative">
@@ -48,14 +44,29 @@ const ContactSection = () => {
         </div>
 
         <div className="max-w-4xl mx-auto">
-          <div className="grid md:grid-cols-2 gap-6">
-            {contactInfo.map((item, index) => (
+          <div className="grid grid-cols-4 gap-4 sm:gap-6 mb-6 md:hidden">
+            {mobileContactInfo.map((item, index) => (
               <a
                 key={index}
                 href={item.href}
                 target={item.href.startsWith("http") ? "_blank" : undefined}
                 rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
-                className="group bg-background border border-border rounded-2xl p-6 flex items-center gap-5 hover:border-primary hover:shadow-gold transition-all duration-300"
+                className="group bg-background border border-border rounded-2xl p-4 flex items-center justify-center hover:border-primary hover:shadow-gold transition-all duration-300 aspect-square"
+                aria-label={item.label}
+              >
+                <item.icon className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
+              </a>
+            ))}
+          </div>
+
+          <div className="hidden md:grid md:grid-cols-2 gap-6 mb-6">
+            {mobileContactInfo.map((item, index) => (
+              <a
+                key={index}
+                href={item.href}
+                target={item.href.startsWith("http") ? "_blank" : undefined}
+                rel={item.href.startsWith("http") ? "noopener noreferrer" : undefined}
+                className="group bg-background border border-border rounded-3xl p-6 flex items-center gap-5 hover:border-primary hover:shadow-gold transition-all duration-300"
               >
                 <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center group-hover:bg-primary group-hover:scale-110 transition-all duration-300">
                   <item.icon className="w-6 h-6 text-primary group-hover:text-primary-foreground transition-colors duration-300" />
@@ -69,6 +80,23 @@ const ContactSection = () => {
               </a>
             ))}
           </div>
+
+          <a
+            href="https://maps.google.com/?q=%D7%90%D7%9C%D7%99+%D7%94%D7%95%D7%A8%D7%95%D7%91%D7%99%D7%A5+12"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="group bg-background border border-border rounded-3xl p-6 mb-8 flex items-center gap-5 hover:border-primary hover:shadow-gold transition-all duration-300 md:mx-auto md:max-w-xl"
+          >
+            <div className="w-14 h-14 bg-primary/10 rounded-xl flex items-center justify-center">
+              <MapPin className="w-6 h-6 text-primary" />
+            </div>
+            <div>
+              <p className="text-sm text-muted-foreground mb-1">כתובת המשרד</p>
+              <p className="text-foreground font-medium">
+                אלי הורוביץ 12, קומה 4 - עתיד בריא
+              </p>
+            </div>
+          </a>
 
           {/* Main CTA */}
           <div className="mt-12 text-center">

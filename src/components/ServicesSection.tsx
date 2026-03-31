@@ -24,7 +24,7 @@ const ServicesSection = () => {
     },
     {
       icon: Search,
-      title: "איתור כספים והוזלת דמי ניהול",
+      title: "איתור כספים\nוהוזלת דמי ניהול",
       description: "איתור כספים אבודים והוזלת דמי ניהול בקופות פנסיוניות וחסכונות אישיים"
     },
     {
@@ -60,21 +60,21 @@ const ServicesSection = () => {
           </p>
         </div>
 
-        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+        <div className="grid grid-cols-2 sm:grid-cols-4 gap-3 lg:gap-4 max-w-full lg:max-w-6xl mx-auto">
           {services.map((service, index) => (
             <div
               key={index}
-              className="group bg-card border border-border rounded-2xl p-8 hover:border-primary hover:shadow-gold transition-all duration-500"
+              className="group bg-card border border-border rounded-3xl p-3 lg:p-5 hover:border-primary hover:shadow-gold transition-all duration-500 aspect-square flex flex-col items-center justify-between text-center"
             >
-              <div className="flex items-start gap-6">
-                <div className="w-16 h-16 bg-primary/10 rounded-xl flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300 shrink-0">
-                  <service.icon className="w-8 h-8 text-primary" />
+              <div className="flex flex-col items-center gap-3 w-full">
+                <div className="w-14 h-14 sm:w-16 sm:h-16 lg:w-20 lg:h-20 bg-primary/10 rounded-2xl flex items-center justify-center group-hover:bg-primary/20 transition-colors duration-300">
+                  <service.icon className="w-7 h-7 sm:w-8 sm:h-8 lg:w-9 lg:h-9 text-primary" />
                 </div>
-                <div>
-                  <h3 className="text-xl font-bold text-foreground mb-3 group-hover:text-primary transition-colors duration-300">
+                <div className="w-full">
+                  <h3 className="text-base sm:text-lg lg:text-xl font-semibold text-foreground mb-2 group-hover:text-primary transition-colors duration-300 leading-tight whitespace-pre-line">
                     {service.title}
                   </h3>
-                  <p className="text-muted-foreground leading-relaxed">
+                  <p className="text-[0.9rem] sm:text-base lg:text-[1rem] leading-6 text-muted-foreground break-words">
                     {service.description}
                   </p>
                 </div>
